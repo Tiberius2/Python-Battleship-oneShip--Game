@@ -10,9 +10,12 @@ from color import Text, Background, Cursor
 
 vertical_header = " |A|B|C|D|E|F|G|H|I|J| "
 FIELDS = [EMPTY, OWN_SHIP, OWN_SHIP_HIT, ENEMY_SHIP_HIT, MISS, OWN_SHIP_ENEMY_SHIP_HIT] = 0, 1, 2, 3, 4, 5
-SHIP_TYPES = [BATTLESHIP] = 5  # supported ship types
+SHIP_TYPES = [BATTLESHIP, CRUISER, DESTROYER, SUBMARINE] = 5, 4, 3, 2  # supported ship types
 SHIP_NAMES = {
     BATTLESHIP: "Battleship",
+    CRUISER: "Cruiser",
+    DESTROYER: "Destroyer",
+    SUBMARINE: "Submarine"
 }
 PLAYER_SHIPS = [BATTLESHIP]  # change this according to your needs
 
