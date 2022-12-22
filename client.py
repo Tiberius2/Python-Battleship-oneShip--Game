@@ -1,4 +1,4 @@
-from game import *
+from main import *
 
 logging.basicConfig(filename='log.log', level=logging.DEBUG)
 
